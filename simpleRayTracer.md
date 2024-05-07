@@ -1,7 +1,7 @@
 
 # Simple Ray Tracer
 
-A RayTracer that renders triangles and spheres and ellipsoids with Blinn-Phong shading, mirror reflections, transformation stack, and a BVH acceleration structure based on the skeleton code and tutorial from the [CSE 168 OptiX Tutorial](https://github.com/CSE168sp20/CSE-168-OptiX-Tutorial/tree/master).  
+A RayTracer mode that renders triangles and spheres and ellipsoids with Blinn-Phong shading, mirror reflections, transformation stack, and a BVH acceleration structure based on the skeleton code and tutorial from the [CSE 168 OptiX Tutorial](https://github.com/CSE168sp20/CSE-168-OptiX-Tutorial/tree/master).  
 
 This assignment is created for Assignment 1 of the CSE 168 Spring 2024 course at UCSD with Ravi Ramamoorthi.
 
