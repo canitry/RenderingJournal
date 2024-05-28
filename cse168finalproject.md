@@ -12,7 +12,7 @@ I have also implemented basic relighting from a few point lights as can be viewe
 
 ![](interface)
 
-The next steps of the project would be to tackle Image-Based Lighting. Then, to wavelet transform the transport matrix along its rows to allow for real time performance with higher resolution environment maps. Tackling Image-Based Lighting will mean that I will implement environment maps, particularly cube maps, and, adding to the existing IMGUI interface, a method of rotating the image projected onto the cube map so that relighting.
+The next steps of the project would be to tackle Image-Based Lighting. Then, to wavelet transform the transport matrix along its rows to allow for real time performance with higher resolution environment maps. Tackling Image-Based Lighting will mean that I will implement environment maps, particularly cube maps, and, adding to the existing IMGUI interface, a method of rotating the image projected onto the cube map so that it is simple to relight in real time.
 
 ![Hero Video](FinalProject/heroVideo)
 
