@@ -6,11 +6,25 @@ For the preliminary results:
 
 I have integrated an IMGUI interface through which I can adjust the light intensities of the scene. 
 
-![](interfaceImage)
+![](FinalProject/interfaceImage)
+
+`precomp on` has been added to `.test` file (default is off) as a command to add to `.test` files to determine whether there should be precomputation and relighting for the scene or not.
 
 I have also implemented basic relighting from a few point lights as can be viewed in the demo video below.
 
-![](interface)
+![](FinalProject/basicRelight)
+
+Point lights and directional lights have been implemented in the direct lighting and path-tracer implementations as specified in the UCSD Online extra credit for the previous assignments.
+
+![](FinalProject/pointandDirLight)
+
+The integration of the basic relighting system with the point light and directional light implementations for the direct lighting system and the path-tracer system is tested. No obvious signs of something going wrong are visible.
+
+![](FinalProject/integrationtest)
+
+Together, we have:
+
+![](FinalProject/ProposalDemo)
 
 The next steps of the project would be to tackle Image-Based Lighting. Then, to wavelet transform the transport matrix along its rows to allow for real time performance with higher resolution environment maps. Tackling Image-Based Lighting will mean that I will implement environment maps, particularly cube maps, and, adding to the existing IMGUI interface, a method of rotating the image projected onto the cube map so that it is simple to relight in real time.
 
