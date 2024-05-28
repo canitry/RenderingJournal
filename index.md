@@ -1,4 +1,4 @@
-##Rendering Journal
+## Rendering Journal
 
 Documentation for the Ray Tracer/Path Tracer Swiss Army Knife Project, a renderer created in Nvidia OptiX, CUDA and C++.
 
