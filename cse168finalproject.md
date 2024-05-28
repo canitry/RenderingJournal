@@ -8,7 +8,7 @@ I have integrated an IMGUI interface through which I can adjust the light intens
 
 ![](FinalProject/interfaceImage)
 
-`precomp on` has been added to `.test` file (default is off) as a command to add to `.test` files to determine whether there should be precomputation and relighting for the scene or not.
+Parsing for `precomp on` has been added to `SceneLoader` (default is off) as a command to add to `.test` files to determine whether there should be precomputation and relighting for the scene or not.
 
 I have also implemented basic relighting from a few point lights as can be viewed in the demo video below.
 
@@ -18,7 +18,7 @@ Point lights and directional lights have been implemented in the direct lighting
 
 ![](FinalProject/pointandDirLight)
 
-The integration of the basic relighting system with the point light and directional light implementations for the direct lighting system and the path-tracer system is tested. No obvious signs of something going wrong are visible.
+The integration of the basic relighting system with the point light and directional light implementations for the direct lighting system and the path-tracer system has been tested. No obvious signs of something going wrong are visible.
 
 ![](FinalProject/integrationtest)
 
