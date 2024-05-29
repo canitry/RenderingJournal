@@ -4,17 +4,19 @@ For the final project, I aim to implement pre-computed radiance transfer and rel
 
 For the preliminary results: 
 
-I have integrated an IMGUI interface through which I can adjust the light intensities of the scene. 
+I have integrated an IMGUI interface through which I can adjust the light intensities of the directional lights of the scene. 
 
 ![](FinalProject/interfaceImage)
 
-Parsing for `precomp on` has been added to `SceneLoader` (default is off) as a command to add to `.test` files to determine whether there should be precomputation and relighting for the scene or not.
+Parsing for `precomp` has been added to `SceneLoader` (default is off) as a command to add to `.test` files to determine whether there should be precomputation and relighting for the scene or not.
+
+The code for the pathtracer so far has been refactored to no longer do progressive rendering.
 
 I have also implemented basic relighting from a few point lights as can be viewed in the demo video below.
 
 ![](FinalProject/basicRelight)
 
-Point lights and directional lights have been implemented in the direct lighting and path-tracer implementations as specified in the UCSD Online extra credit for the previous assignments.
+Directional lights have been implemented in the direct lighting and path-tracer implementations as specified in the UCSD Online extra credit for the previous assignments.
 
 ![](FinalProject/pointandDirLight)
 
@@ -26,7 +28,7 @@ Together, we have:
 
 ![](FinalProject/ProposalDemo)
 
-The next steps of the project would be to tackle Image-Based Lighting. Then, to wavelet transform the transport matrix along its rows to allow for real time performance with higher resolution environment maps. Tackling Image-Based Lighting will mean that I will implement environment maps, particularly cube maps, and, adding to the existing IMGUI interface, a method of rotating the image projected onto the cube map so that it is simple to relight in real time.
+The next steps of the project would be to tackle Image-Based Lighting. Then, to wavelet transform the transport matrix along its rows to allow for real time performance with higher resolution environment maps. Tackling Image-Based Lighting will mean that I will implement environment maps, namely cube maps, and add a method of rotating the image projected onto the cube map to the existing IMGUI interface so that it is simple to relight in real time.
 
 ![Hero Video](FinalProject/heroVideo)
 
