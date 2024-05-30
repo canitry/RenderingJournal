@@ -20,25 +20,29 @@ Basic relighting from a few directional lights has been implemented as can be vi
 
 <video src="FinalProject/basicRelight.mp4" width="640" height="480" controls></video>
 
-For simplicities sake, the demo above uses two directional lights encoded in the scene file. However, there is also a command one can include in the scene file, `autoLight` with parameter `dlight` and an unsigned integer `n` to create `n` directional lights whose directions are distributed (relatively) uniformly around the unit sphere. A demo of this feature can be seen below:
+For now, the demo above uses the directional lights in the scene file.
 
-![](FinalProject/manyLightDemo)
+## Next Steps
 
-Directional lights have been implemented in the direct lighting and path-tracer implementations as specified in the UCSD Online extra credit for the previous assignments.
+While the current project simply uses the directional lights encoded in the scene file, I will add another command one can include in the scene file, `autoLight` with parameter `dlight` and an unsigned integer `n` to create `n` directional lights whose directions are distributed (relatively) uniformly around the unit sphere.  I am considering using the Fibbonacci sphere algorithm.
 
-![](FinalProject/pointandDirLight)
+I will also implement directional lights in the direct lighting and path-tracer implementations as specified in the UCSD Online extra credit for the previous assignments.
 
-The integration of the basic relighting system with the point light and directional light implementations for the direct lighting system and the path-tracer system has been tested. No obvious signs of something going wrong are visible.
+<!-- The integration of the basic relighting system with the point light and directional light implementations for the direct lighting system and the path-tracer system has been tested. No obvious signs of something going wrong are visible.
 
 ![](FinalProject/integrationtest)
 
 Together, we have:
 
-![](FinalProject/ProposalDemo)
+![](FinalProject/ProposalDemo) -->
 
-## Next Steps
+<!-- obj
+v x y z
+f 0 1 2
+vt = texture coordinates
+ -->
 
-The next steps of the project are to tackle Image-Based Lighting. Then, to wavelet transform the transport matrix along its rows to allow for real time performance with higher resolution environment maps. Tackling Image-Based Lighting will mean that I will implement environment maps, namely cube maps, and add a method of rotating the image projected onto the cube map to the existing IMGUI interface so that it is simple to relight in real time. I am also aiming to implement an interface where, when environment maps are used, we can choose from a collection of environment maps.
+Further next steps of the project are to tackle Image-Based Lighting. Then, to wavelet transform the transport matrix along its rows to allow for real time performance with higher resolution environment maps. Tackling Image-Based Lighting will mean that I will implement environment maps, namely cube maps, and add a method of rotating the image projected onto the cube map to the existing IMGUI interface so that it is simple to relight in real time. I am also aiming to implement an interface where, when environment maps are used, we can choose from a collection of environment maps.
 
 <!-- ![Hero Video](FinalProject/heroVideo)
 
