@@ -30,7 +30,7 @@ For now, as shown in the demo, it simply uses the directional lights in the scen
 
 ### To Do
 
-While the current project simply uses the directional lights encoded in the scene file, I will add another command one can include in the scene file, `autoLight` with parameter `dlight` and an unsigned integer `n` to create `n` directional lights whose directions are distributed (relatively) uniformly around the unit sphere.  I am considering using the Fibbonacci sphere algorithm.
+While the current project simply uses the directional lights encoded in the scene file, I will add another command one can include in the scene file, `autoLight` with an integer parameter `n` to create `n` directional lights whose directions are distributed (relatively) uniformly around the unit sphere.  I am considering using the Fibbonacci sphere algorithm.
 
 I will also implement directional lights in the direct lighting and path-tracer implementations as specified in the UCSD Online extra credit for the previous assignments.
 
