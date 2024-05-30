@@ -3,7 +3,8 @@
 Documentation for the Ray Tracer/Path Tracer Swiss Army Knife Project, a renderer created in Nvidia OptiX, CUDA and C++.
 
 A configurable rendering program with a transformation stack (like OpenGL) and a BVH acceleration structure with different modes of rendering:
-* [Final Project Proposal for CSE168](cse168finalproject)
+* [Final Project for CSE168](cse168finalproject)
+* [Final Project Proposal for CSE168](cse168finalProposal)
 * [Multiple Importance Sampling between NEE and BRDF importance sampling](mis)
 * [Cosine, BRDF, GGX importance sampling](importancesampling)
 * [A path tracer mode with toggleable Next Event Estimation (NEE) and Russian Roulette](neeandrr)
